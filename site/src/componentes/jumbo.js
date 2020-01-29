@@ -1,6 +1,7 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css' ;
-import { Button, Jumbotron }  from  'react-bootstrap' ;
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Jumbotron }  from  'react-bootstrap';
+import 
 
 export default function Jumbo(){
     return(
