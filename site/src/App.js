@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './componentes/menu';
 import Jumbo from './componentes/jumbo';
 import Car from './componentes/carousel';
-import Form from './componentes/form';
+//import Form from './componentes/form';
 import Rodape from './componentes/rodape';
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <>
         < Menu      />
         < Jumbo     />
-        < Car       />
+        {/*< Car       />
         < Form      />
-        < Rodape    />
+        < Rodape    />*/}
     </>
   );
 }
