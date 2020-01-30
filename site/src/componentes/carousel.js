@@ -4,6 +4,7 @@ import { Button, Carousel }  from  'react-bootstrap' ;
 import Imagem01 from './imagem/lentes.jpg';
 import Imagem02 from './imagem/camera.jpg';
 import Imagem03 from './imagem/estudio.jpg';
+import './CSS/car.css';
 
 export default function Car(){
     return(
@@ -17,8 +18,8 @@ export default function Car(){
                             alt="First slide"
                         />
                     <Carousel.Caption>
-                        <h3 className='titulo-h3'>Lentes Fotográficas</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 className='tituloH3'>Lentes Fotográficas</h3>
+                        <p className='escrita'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,8 +29,8 @@ export default function Car(){
                             alt="Third slide"
                         />
                     <Carousel.Caption>
-                        <h3>Câmeras Fotográficas</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className='tituloH3'>Câmeras Fotográficas</h3>
+                        <p className='escrita'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -40,8 +41,8 @@ export default function Car(){
                             alt="Third slide"
                         />
                     <Carousel.Caption>
-                        <h3>Estúdios Fotográficos</h3>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                        <h3 className='tituloH3'>Estúdios Fotográficos</h3>
+                        <p className='escrita'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 

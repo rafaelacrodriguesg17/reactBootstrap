@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
 .back01{
-    background-image: url('../imagem/jumb.jpg');
-    background-repeat: no-repeat;
-    width: 100%;
+    background-color: #006D8A;
 }
+
+.tituloH1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+}
+
+.escrita2{
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
