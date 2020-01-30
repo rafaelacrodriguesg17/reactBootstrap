@@ -17,8 +17,8 @@ export default function Car(){
                             alt="First slide"
                         />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className='titulo-h3'>Lentes Fotográficas</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,7 +28,7 @@ export default function Car(){
                             alt="Third slide"
                         />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
+                        <h3>Câmeras Fotográficas</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -40,8 +40,8 @@ export default function Car(){
                             alt="Third slide"
                         />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Estúdios Fotográficos</h3>
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
