@@ -1,6 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css' ;
 import { Button, Carousel }  from  'react-bootstrap' ;
+import Imagem01 from './imagem/lentes.jpg';
+import Imagem02 from './imagem/camera.jpg';
+import Imagem03 from './imagem/estudio.jpg';
 
 export default function Car(){
     return(
@@ -10,7 +13,7 @@ export default function Car(){
                 <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/800x400?text=First slide&bg=373940"
+                            src={Imagem01} 
                             alt="First slide"
                         />
                     <Carousel.Caption>
@@ -21,7 +24,7 @@ export default function Car(){
                 <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/800x400?text=Second slide&bg=282c34"
+                            src={Imagem02}
                             alt="Third slide"
                         />
                     <Carousel.Caption>
@@ -33,7 +36,7 @@ export default function Car(){
                 <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/800x400?text=Third slide&bg=20232a"
+                            src={Imagem03}
                             alt="Third slide"
                         />
                     <Carousel.Caption>
