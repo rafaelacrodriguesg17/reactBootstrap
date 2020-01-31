@@ -1,27 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
 
-.back01{
-    background-color: #006D8A;
-}
 
-.tituloH1{
-    font-size: 60px;
-    text-align: center;
+.tituloH4{
+    font-size: 30px;
     color: rgb(255, 255, 255);
     font-family: 'Lobster', cursive;
 }
 
-.escrita2{
+.btns{
     font-size: 18px;
-    text-align: center;
     color: #ffffff;
     font-family: 'PT Sans Narrow', sans-serif;
 }
-
-.btn{
-    object-position: center;
-    color: #ffffff;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-

@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '<script src="https://kit.fontawesome.com/556dcba218.js" crossorigin="anonymous"></script>';
 import { Button, Jumbotron, Badge }  from  'react-bootstrap';
 import './CSS/jumbo.css';
 
@@ -9,14 +8,13 @@ export default function Jumbo(){
         <div>
             <Jumbotron className='back01'>
                 
-                <h1 className='tituloH1'><i class="fas fa-camera"></i> Photography </h1>
+                <h1 className='tituloH1'> Photography </h1>
                 <p className='escrita2'>
-                    This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.
+                    It is a long established fact that a reader will be distracted by 
+                    the readable content of a page when looking at its layout. 
                 </p>
-                <p>
-                    <Button variant="primary">Learn more</Button>
-                </p>
+                    <Button variant="outline-warning" className="btn"> Trabalhos </Button>
+                    <Button variant="outline-warning" className="btn"> Fotógrafos </Button>
             </Jumbotron>
         </div>    
     );
