@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+.rodape1{
+    background:#DD9450;
+}
+
+.rodape2{
+    background: #572D05;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+}
+
+.paragrafo{
+    color: rgb(255, 255, 255);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
