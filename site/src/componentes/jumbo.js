@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Jumbotron, Badge }  from  'react-bootstrap';
+import { Jumbotron, Badge }  from  'react-bootstrap';
 import './CSS/jumbo.css';
 
 export default function Jumbo(){
@@ -13,8 +13,7 @@ export default function Jumbo(){
                     It is a long established fact that a reader will be distracted by 
                     the readable content of a page when looking at its layout. 
                 </p>
-                    <Button variant="outline-warning" className="btn"> Trabalhos </Button>
-                    <Button variant="outline-warning" className="btn"> Fotógrafos </Button>
+
             </Jumbotron>
         </div>    
     );

@@ -3,7 +3,7 @@ import Menu from './componentes/menu';
 import Jumbo from './componentes/jumbo';
 import Car from './componentes/carousel';
 //import Form from './componentes/form';
-import Rodape from './componentes/rodape';
+//import Rodape from './componentes/rodape';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
         < Menu      />
         < Jumbo     />
         < Car       />
-        {/* < Form      /> */}
-        < Rodape    />
+        {/* < Form  /> 
+        < Rodape    /> */}
     </>
   );
 }
